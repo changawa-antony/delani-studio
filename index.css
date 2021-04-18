@@ -45,12 +45,25 @@ h2{
 }
 
 .what-we-do{
-    padding-top: 150px;
-    height: 400px;
+    padding-top: 30px;
+    height: 300px;
+}
+
+.what-we-do-sec{
+    padding-top: 100px;
+}
+
+.services{
+    cursor: pointer;
 }
 
 .services img{
     margin-bottom: 20px;
+}
+
+.portfolio-sec{
+    margin-bottom: 50px;
+    padding-top: 100px;
 }
 
 .projects-display{
@@ -69,8 +82,8 @@ h2{
     background-image: url("./assets/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
-    padding-top: 40px;
+    height: 500px;
+    padding-top: 80px;
 }
 
 .form-control{
