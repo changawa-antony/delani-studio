@@ -1,3 +1,8 @@
+
+body{
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .company-intro{
     background-image: url(./assets/backgrounds/h_img.jpg);
     background-size: cover;
@@ -44,4 +49,16 @@ h2{
 
 .services img{
     margin-bottom: 20px;
+}
+
+.projects-display{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.projects-display img{
+    width: 20%;
+    padding: 20px;
+    text-align: center;
 }
