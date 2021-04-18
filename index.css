@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Open Sans', sans-serif;
+}
 body{
     margin-left: 80px;
     margin-right: 80px;
@@ -95,4 +97,23 @@ h2{
 
   .btn{
       width: 400px;
+      background-color: transparent;
   }
+
+  .btn:hover{
+    background-color: rgb(250, 171, 25);
+}
+
+  .footer-icons{
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  .footer-icons img{
+    margin-right: 40px;
+}
+
+.footer-text p{
+    font-size: 20px;
+    font-weight: bold;
+}
