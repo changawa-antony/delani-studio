@@ -19,8 +19,12 @@ body{
     padding-top: 400px;
 }
 
+.hero-text{
+    padding-bottom: 10px;
+}
+
 .logo{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .description-text{
