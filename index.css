@@ -36,3 +36,12 @@
 h2{
     font-weight: bold;
 }
+
+.what-we-do{
+    padding-top: 150px;
+    height: 400px;
+}
+
+.services img{
+    margin-bottom: 20px;
+}
