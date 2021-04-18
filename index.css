@@ -1,0 +1,38 @@
+.company-intro{
+    background-image: url(./assets/backgrounds/h_img.jpg);
+    background-size: cover;
+    height: max-content;
+}
+
+.mouse-click{
+    margin-top: 100px;
+}
+
+.jumbotron{
+    padding-top: 400px;
+}
+
+.logo{
+    margin-bottom: 10px;
+}
+
+.description-text{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.about-us-sec{
+    height: 400px;
+    padding-top: 100px;
+}
+
+.service-sec{
+    background-image: url(./assets/backgrounds/s_image.jpg);
+    background-size: cover;
+    height: 400px;
+    padding-top: 100px;
+}
+
+h2{
+    font-weight: bold;
+}
