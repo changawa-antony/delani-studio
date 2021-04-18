@@ -42,11 +42,12 @@ body{
 
 h2{
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .what-we-do{
     padding-top: 30px;
-    height: 300px;
+    height: 200px;
 }
 
 .what-we-do-sec{
