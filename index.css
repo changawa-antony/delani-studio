@@ -79,7 +79,7 @@ h2{
 }
 
 .projects-display img{
-    width: 20%;
+
     padding: 20px;
     text-align: center;
 }
@@ -148,3 +148,79 @@ h2{
 .hidden-content{
     cursor: pointer;
 }
+
+
+.project-1{
+    background-image: url("./assets/portfolio/work4.jpg");
+    height: 300px;
+    width: 350px
+}
+
+
+.project-2{
+    background-image: url("./assets/portfolio/work3.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.project-3{
+    background-image: url("./assets/portfolio/work2.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.project-4{
+    background-image: url("./assets/portfolio/work1.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.project-5{
+    background-image: url("./assets/portfolio/work5.jpg");
+    height: 300px;
+    width: 350px
+}
+
+
+.project-6{
+    background-image: url("./assets/portfolio/work6.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.project-7{
+    background-image: url("./assets/portfolio/work7.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.project-8{
+    background-image: url("./assets/portfolio/work8.jpg");
+    height: 300px;
+    width: 350px
+}
+
+.image-overlay{
+    margin: 10px;
+}
+
+.project-name{
+    display: absolute;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+
+}
+.project-name:hover{
+    background: lemonchiffon;
+}
+
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+
+
+
