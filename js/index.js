@@ -102,3 +102,13 @@ $('#project-8').hover(
   function(){ $('#project-8').css('opacity','1') },
   function(){ $('#project-8').css('opacity','0') }
 )
+
+// Alert user their input + message
+
+$(document).ready(function(){
+  $("#mc-embedded-subscribe").click(function(){
+    var userName = $("#mce-FNAME").val();
+    alert( userName +" we have received your message. Thank you for subscribing");
+
+  });
+});
