@@ -211,6 +211,7 @@ h2{
 }
 
 .project-name{
+    display: none;
     background: rgba(0, 0, 0, 0.638);
     display: absolute;
     width: 100%;
