@@ -79,7 +79,6 @@ h2{
 }
 
 .projects-display img{
-
     padding: 20px;
     text-align: center;
 }
@@ -205,15 +204,27 @@ h2{
 }
 
 .project-name{
+    background: rgba(0, 0, 0, 0.638);
     display: absolute;
     width: 100%;
     height: 300px;
     text-align: left;
+    padding: 30px;
 
 }
-.project-name:hover{
-    background: lemonchiffon;
+
+.project-name>p{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-left: 5px ;
+    padding-bottom: 130px;
+    line-height: 50px;
 }
+
 
 .row>*{
     padding-right: 0;
