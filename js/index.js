@@ -61,7 +61,44 @@ $(document).ready(function() {
 
 
   //Projects hover effects
-  $('.project-name').hover(
-    function(){ $('.project-name').css('display','none') },
-    function(){ $('.project-name').css('display', 'block') }
+
+$('#project-1').hover(
+    function(){ $('#project-1').css('opacity','1') },
+    function(){ $('#project-1').css('opacity','0') }
+)
+
+$('#project-2').hover(
+  function(){ $('#project-2').css('opacity','1') },
+  function(){ $('#project-2').css('opacity','0') }
+)
+
+$('#project-3').hover(
+  function(){ $('#project-3').css('opacity','1') },
+  function(){ $('#project-3').css('opacity','0') }
+)
+
+$('#project-4').hover(
+  function(){ $('#project-4').css('opacity','1') },
+  function(){ $('#project-4').css('opacity','0') }
+)
+
+
+$('#project-5').hover(
+  function(){ $('#project-5').css('opacity','1') },
+  function(){ $('#project-5').css('opacity','0') }
+)
+
+$('#project-6').hover(
+  function(){ $('#project-6').css('opacity','1') },
+  function(){ $('#project-6').css('opacity','0') }
+)
+
+$('#project-7').hover(
+  function(){ $('#project-7').css('opacity','1') },
+  function(){ $('#project-7').css('opacity','0') }
+)
+
+$('#project-8').hover(
+  function(){ $('#project-8').css('opacity','1') },
+  function(){ $('#project-8').css('opacity','0') }
 )

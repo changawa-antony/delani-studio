@@ -210,16 +210,25 @@ h2{
     cursor: pointer;
 }
 
-.project-name{
-    display: none;
+.hover-1,
+.hover-2,
+.hover-3,
+.hover-4,
+.hover-5,
+.hover-6,
+.hover-7,
+.hover-8
+{
     background: rgba(0, 0, 0, 0.638);
     display: absolute;
     width: 100%;
     height: 300px;
     text-align: left;
     padding: 30px;
+    opacity: 0;
 
 }
+
 
 .project-name>p{
     font-size: 40px;
