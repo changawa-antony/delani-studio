@@ -1,5 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 body{
     margin-left: 80px;
@@ -151,59 +152,65 @@ h2{
 
 .project-1{
     background-image: url("./assets/portfolio/work4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
-    width: 350px
 }
 
 
 .project-2{
     background-image: url("./assets/portfolio/work3.jpg");
+    background-repeat: no-repeat;
+    background-size: inherit;
     height: 300px;
-    width: 350px
 }
 
 .project-3{
     background-image: url("./assets/portfolio/work2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
-    width: 350px
 }
 
 .project-4{
     background-image: url("./assets/portfolio/work1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 300px;
-    width: 350px
 }
 
 .project-5{
     background-image: url("./assets/portfolio/work5.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 350px
 }
 
 
 .project-6{
     background-image: url("./assets/portfolio/work6.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 350px
 }
 
 .project-7{
     background-image: url("./assets/portfolio/work7.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 350px
 }
 
 .project-8{
     background-image: url("./assets/portfolio/work8.jpg");
+    background-repeat: no-repeat;
     height: 300px;
-    width: 350px
 }
 
 .image-overlay{
-    margin: 10px;
+    width: 350px;
+    margin: 5px;
 }
 
 .project-name{
+    display: none;
     background: rgba(0, 0, 0, 0.638);
     display: absolute;
     width: 100%;
@@ -225,11 +232,16 @@ h2{
     line-height: 50px;
 }
 
+.row{
+    flex-wrap: nowrap;
+}
+
 
 .row>*{
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 0
 }
+
 
 
 

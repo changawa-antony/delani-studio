@@ -58,3 +58,14 @@ $(document).ready(function() {
     });
 
   });
+
+
+  //Projects hover effects
+  $(document).ready(function(){
+      $(".project-name").hover(function(){
+          $(".project-name").css("display", "block");
+      },
+      function(){
+        $(".project-name").css("display", "none");
+      });
+  });
