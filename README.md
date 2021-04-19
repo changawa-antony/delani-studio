@@ -26,7 +26,7 @@ $ git clone https://github.com/changawa-antony/delani-studio
 4. Javascript - jquery
 5. Git
 ### View live Site
-View [live]()
+View [live](https://changawa-antony.github.io/delani-studio/)
 
 *Get to explore* :rocket:
 ## Author
