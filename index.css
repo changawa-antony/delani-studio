@@ -207,10 +207,10 @@ h2{
 .image-overlay{
     width: 350px;
     margin: 5px;
+    cursor: pointer;
 }
 
 .project-name{
-    display: none;
     background: rgba(0, 0, 0, 0.638);
     display: absolute;
     width: 100%;
@@ -221,7 +221,7 @@ h2{
 }
 
 .project-name>p{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
